@@ -1,0 +1,35 @@
+name: note_saya
+description: A Flutter application for final Exam of Mobile Framework Class.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  outline_material_icons: ^0.1.0
+  sqflite: ^1.1.5
+  intl: ^0.15.8
+  url_launcher: ^5.0.3
+  shared_preferences: ^0.5.3+1
+  share: ^0.6.1+1
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: ZillaSlab
+      fonts:
+        - asset: fonts/ZillaSlab-Regular.ttf
+        - asset: fonts/ZillaSlab-Italic.ttf
+          style: italic
+        - asset: fonts/ZillaSlab-Bold.ttf
+          weight: 700
+
